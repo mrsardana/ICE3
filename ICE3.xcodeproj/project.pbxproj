@@ -76,6 +76,7 @@
 		73F7AF62298B3058008AF3F9 /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F7AF5F298B3058008AF3F9 /* GameProtocol.swift */; };
 		73F7AF63298B3058008AF3F9 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F7AF60298B3058008AF3F9 /* GameObject.swift */; };
 		73F7AF64298B3058008AF3F9 /* Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F7AF61298B3058008AF3F9 /* Layer.swift */; };
+		73F7AF67298B323A008AF3F9 /* CollisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F7AF66298B323A008AF3F9 /* CollisionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,6 +150,7 @@
 		73F7AF5F298B3058008AF3F9 /* GameProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
 		73F7AF60298B3058008AF3F9 /* GameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
 		73F7AF61298B3058008AF3F9 /* Layer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layer.swift; sourceTree = "<group>"; };
+		73F7AF66298B323A008AF3F9 /* CollisionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		73F7AECA298B2FF8008AF3F9 /* ICE3 */ = {
 			isa = PBXGroup;
 			children = (
+				73F7AF65298B321E008AF3F9 /* Managers */,
 				73F7AF5E298B3058008AF3F9 /* Core */,
 				73F7AF55298B3044008AF3F9 /* GameObjects */,
 				73F7AEE2298B3039008AF3F9 /* Assets */,
@@ -308,6 +311,14 @@
 				73F7AF61298B3058008AF3F9 /* Layer.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		73F7AF65298B321E008AF3F9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				73F7AF66298B323A008AF3F9 /* CollisionManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,6 +451,7 @@
 				73F7AF5B298B3045008AF3F9 /* Cloud.swift in Sources */,
 				73F7AF62298B3058008AF3F9 /* GameProtocol.swift in Sources */,
 				73F7AF63298B3058008AF3F9 /* GameObject.swift in Sources */,
+				73F7AF67298B323A008AF3F9 /* CollisionManager.swift in Sources */,
 				73F7AED2298B2FF8008AF3F9 /* GameScene.swift in Sources */,
 				73F7AED4298B2FF8008AF3F9 /* GameViewController.swift in Sources */,
 				73F7AF5A298B3045008AF3F9 /* Island.swift in Sources */,
